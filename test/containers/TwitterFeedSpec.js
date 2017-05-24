@@ -11,7 +11,7 @@ describe('TwitterFeed', () => {
        profile_image_url: 'http://images2.fanpop.com/image/quiz/400000/400752_1271413686448_431_300.jpg'
     }
   }]
-  
+
   beforeEach(() => {
     wrapper = mount(
       <TwitterFeed
@@ -19,7 +19,10 @@ describe('TwitterFeed', () => {
       />
     )
   });
-  
+
   //YOUR TEST CODE HERE
-  
+  it('should return true', () => {
+    expect(true).toEqual(true);
+  })
+
 })
