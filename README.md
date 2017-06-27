@@ -2,3 +2,6 @@
   
  
 `webpack-dev-server`
+
+
+`karma start`
